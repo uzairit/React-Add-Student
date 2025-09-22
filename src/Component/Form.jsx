@@ -1,8 +1,10 @@
 import React from "react";
+import styles from './Form.module.css'
 
-export default function form({ student, setStudentData, add }) {
+function form({ student, setStudentData, add }) {
   return (
-    <div className="form">
+    <>
+    <div className={styles.form}>
       <input
         type="text"
         placeholder="Enter your name"
@@ -23,5 +25,7 @@ export default function form({ student, setStudentData, add }) {
       />
       <button onClick={add}>Add</button>
     </div>
+    </>
   );
 }
+export default form

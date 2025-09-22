@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Card from "./Component/Card";
 import Form from "./Component/Form";
 
-export default function App() {
+function App() {
   let [student, setStudentData] = useState({
     email: "",
     name: "",
@@ -27,3 +27,4 @@ export default function App() {
     </div>
   );
 }
+export default App
