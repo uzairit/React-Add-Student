@@ -1,4 +1,4 @@
-# 🎓 Student Manager App (React)
+# Student Manager App (React)
 
 A simple and elegant React app to manage student data.  
 Users can add students with **Name, Email, and Age**, and see them displayed in a beautiful card layout.  
